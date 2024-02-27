@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.malise.UpdateBookingTest" time="16.418" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/kudez/Engineer/java/istqb/com.malise/target/test-classes:/home/kudez/Engineer/java/istqb/com.malise/target/classes:/home/kudez/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/kudez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kudez/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/kudez/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/kudez/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/kudez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/kudez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/kudez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/kudez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/kudez/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/kudez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/kudez/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/kudez/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/kudez/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/kudez/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/kudez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/kudez/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/kudez/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/kudez/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/kudez/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/kudez/.m2/repository/commons-logging/commons-logging/1.3.0/commons-logging-1.3.0.jar:/home/kudez/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/kudez/Engineer/java/istqb/com.malise/target/surefire/surefirebooter12706968718559878040.jar /home/kudez/Engineer/java/istqb/com.malise/target/surefire 2024-02-27T10-18-55_067-jvmRun1 surefire13184776769448192301tmp surefire_06995563783631476251tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/kudez/Engineer/java/istqb/com.malise/target/test-classes:/home/kudez/Engineer/java/istqb/com.malise/target/classes:/home/kudez/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/kudez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kudez/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/home/kudez/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/home/kudez/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/home/kudez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/kudez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/kudez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/kudez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/kudez/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/kudez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/kudez/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/home/kudez/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/home/kudez/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/home/kudez/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/home/kudez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/kudez/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/kudez/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/kudez/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/kudez/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/kudez/.m2/repository/commons-logging/commons-logging/1.3.0/commons-logging-1.3.0.jar:/home/kudez/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/kudez"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/kudez/Engineer/java/istqb/com.malise"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/kudez/Engineer/java/istqb/com.malise/target/surefire/surefirebooter12706968718559878040.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-post-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="kudez"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-17-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/kudez/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="/home/kudez/Engineer/java/istqb/com.malise"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.21+9-post-Ubuntu-0ubuntu122.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="updateBookingWithInvalidData" classname="com.malise.UpdateBookingTest" time="7.283"/>
+  <testcase name="attemptToUpdateNonExistentBooking" classname="com.malise.UpdateBookingTest" time="2.028"/>
+  <testcase name="updateBookingWithPartialData" classname="com.malise.UpdateBookingTest" time="1.882"/>
+  <testcase name="updateBookingSuccessfully" classname="com.malise.UpdateBookingTest" time="1.896">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at com.malise.UpdateBookingTest.updateBookingSuccessfully(UpdateBookingTest.java:42)
+]]></failure>
+  </testcase>
+  <testcase name="updateBookingWithEmptyData" classname="com.malise.UpdateBookingTest" time="1.32"/>
+  <testcase name="updateBookingWithDifferentUsersToken" classname="com.malise.UpdateBookingTest" time="1.921"/>
+</testsuite>
